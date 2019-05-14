@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">
+    My name is [[${color.name}]].<br />
+    My favorite color is [[${color.color}]].<br />
+    I like it because it remindes me [[${color.description}]].
+</p>
+</body>
+</html>
